@@ -1,0 +1,6 @@
+ollie@ollieslaptop: nasm -f elf HellnoWorld.asm
+ollie@ollieslaptop:~/Projects/nasm$ ld -m elf_i386 -s -o HellnoWorld HellnoWorld.o
+ollie@ollieslaptop:~/Projects/nasm$ ./HellnoWorld
+Hello, world!
+ollie@ollieslaptop:~/Projects/nasm$ 
+
