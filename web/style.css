@@ -1,0 +1,109 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 450px;
+  height: 335px;
+
+  font-size: 10px;
+  font-family: "Arial", sans-serif;
+  color: white;
+}
+
+.element {
+    padding: 5px;
+    display: block;
+}
+
+.page-block {
+    padding: 10px 0;
+}
+
+.header {
+  background: #34495e;
+}
+
+.header .header-1 {
+  background: #c0392b;
+  min-height: 30px;
+}
+
+.header .menu {
+    width: 100%;
+   min-height: 30px;
+   background: #3498db;
+   z-index: 200;
+   margin: 10px 0;
+}
+
+.layout-positioner {
+    width: 350px;
+    margin: 0 auto;
+    /* border: 1px dotted white; */
+}
+
+.layout-positioner::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header .promo {
+    width: 360px;
+    /* border: 1px solid green; */
+}
+
+.promo .layout-column {
+  min-height: 60px;
+  width: 165px;
+  background: #c0392b;
+}
+
+.promo .layout-column-1 {
+    float: left;
+}
+  
+.promo .layout-column-2 {
+    float: right;
+}
+
+.features {
+    width: 360px;
+}
+
+.features .feature {
+  background: #3498db;
+  min-height: 100px;
+}
+/* 360px  = 5 + 60 + 5 + 10 + 5 + 190 + 5 + 10 + 5 + 60 + 5*/
+.features .feature-l {
+    width: 60px;
+    float: left;
+}
+
+.features .feature-mid {
+    width: 190px;
+    float: left;
+    margin: 0 10px;
+}
+
+.features .feature-r {
+    width: 60px;
+    float: right;
+}
+
+.footer {
+  bottom: 0;
+  padding-top: 0;
+  min-height: 30px;
+  background: #34495e;
+}
+/*
+  Используемые цвета:
+  #34495e – мокрый асфальт
+  #c0392b – красный
+  #3498db – синий
+*/
