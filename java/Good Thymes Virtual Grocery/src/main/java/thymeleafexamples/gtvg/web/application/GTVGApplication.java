@@ -39,7 +39,7 @@ import thymeleafexamples.gtvg.web.controller.SubscribeController;
 import thymeleafexamples.gtvg.web.controller.UserProfileController;
 
 
-public class GTVGApplication {
+public class  GTVGApplication {
 
 
     private TemplateEngine templateEngine;
