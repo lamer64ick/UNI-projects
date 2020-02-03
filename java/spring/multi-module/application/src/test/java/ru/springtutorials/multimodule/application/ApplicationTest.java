@@ -1,0 +1,23 @@
+package ru.springtutorials.multimodule.config;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+import org.junit.jupiter.api.Test;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import ru.springtutorials.multimodule.service.demo.MyService;
+
+@SpringBootTest
+public class ApplicationTest {
+
+    @Autowired
+    private MyService myService;
+
+    @Test
+    public void contextLoads() {
+        assertThat(myService.message()).isNotNull();
+    }
+
+}
