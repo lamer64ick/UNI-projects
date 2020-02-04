@@ -1,4 +1,4 @@
-package ru.smartcoder.spring_boot_simple_example;
+package ru.springtutorials.multimodule.application.auth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

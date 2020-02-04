@@ -1,4 +1,4 @@
-package ru.springtutorials.multimodule.config.company;
+package ru.springtutorials.multimodule.application.company;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

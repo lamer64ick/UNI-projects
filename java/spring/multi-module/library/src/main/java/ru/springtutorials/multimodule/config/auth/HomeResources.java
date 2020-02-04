@@ -1,6 +1,8 @@
-package ru.springtutorials.multimodule.application.auth;
+package ru.springtutorials.multimodule.config.auth;
 
-//@RestController
-//public class HomeResources {
-//
-//}
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HomeResources {
+
+}

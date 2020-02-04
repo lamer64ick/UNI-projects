@@ -1,4 +1,4 @@
-package ru.springtutorials.multimodule.config;
+package ru.springtutorials.multimodule.application;
 
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;

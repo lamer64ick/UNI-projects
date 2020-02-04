@@ -1,4 +1,4 @@
-package ru.springtutorials.multimodule.config.demo.service;
+package ru.springtutorials.multimodule.service.demo;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

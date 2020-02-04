@@ -1,4 +1,4 @@
-package ru.springtutorials.multimodule.config.demo;
+package ru.springtutorials.multimodule.application.demo;
 
 import ru.springtutorials.multimodule.service.demo.MyService;
 import org.springframework.boot.SpringApplication;

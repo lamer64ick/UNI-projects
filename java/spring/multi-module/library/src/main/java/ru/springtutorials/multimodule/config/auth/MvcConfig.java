@@ -15,11 +15,4 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
         registry.addViewController("/login").setViewName("login");
     }
 
-//    @Bean
-//    public ClassLoaderTemplateResolver templateResolver() {
-//
-//        var templateResolver = new ClassLoaderTemplateResolver();
-//        public ClassLoaderTemplateResolver
-//    }
-
 }

@@ -1,4 +1,4 @@
-package ru.springtutorials.multimodule.application;
+package ru.springtutorials.tests;
 
 import org.springframework.stereotype.Component;
 

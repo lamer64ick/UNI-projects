@@ -1,4 +1,4 @@
-package ru.springtutorials.multimodule.config.demo.service;
+package ru.springtutorials.multimodule.service.demo;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
