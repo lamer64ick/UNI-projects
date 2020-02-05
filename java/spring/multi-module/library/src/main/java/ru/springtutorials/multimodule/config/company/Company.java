@@ -1,6 +1,7 @@
-package ru.springtutorials.multimodule.application.company;
+package ru.springtutorials.multimodule.config.company;
 
 import org.springframework.stereotype.Component;
+import ru.springtutorials.multimodule.config.company.Address;
 
 @Component
 public class Company {

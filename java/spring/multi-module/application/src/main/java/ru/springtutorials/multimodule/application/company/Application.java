@@ -3,8 +3,10 @@ package ru.springtutorials.multimodule.application.company;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import ru.springtutorials.multimodule.config.company.Company;
+import ru.springtutorials.multimodule.config.company.Config;
 
-@SpringBootApplication(scanBasePackages = "ru.springtutorials.multimodule")
+@SpringBootApplication(scanBasePackages = "ru.springtutorials.multimodule.config")
 public class Application {
 
     public static void main(String[] args) {

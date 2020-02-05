@@ -1,4 +1,4 @@
-package ru.springtutorials.multimodule.application.company;
+package ru.springtutorials.multimodule.config.company;
 
 public class Address {
     private String street;

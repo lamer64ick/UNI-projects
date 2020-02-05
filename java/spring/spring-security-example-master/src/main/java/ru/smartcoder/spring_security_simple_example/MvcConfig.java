@@ -1,4 +1,4 @@
-package ru.springtutorials.multimodule.config.auth;
+package ru.smartcoder.spring_security_simple_example;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;

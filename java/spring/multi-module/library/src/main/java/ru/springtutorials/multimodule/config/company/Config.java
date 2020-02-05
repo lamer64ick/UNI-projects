@@ -1,4 +1,4 @@
-package ru.springtutorials.multimodule.application.company;
+package ru.springtutorials.multimodule.config.company;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

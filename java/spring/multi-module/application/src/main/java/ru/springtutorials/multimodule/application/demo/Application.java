@@ -1,10 +1,10 @@
 package ru.springtutorials.multimodule.application.demo;
 
-import ru.springtutorials.multimodule.service.demo.MyService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import ru.springtutorials.multimodule.service.demo.MyService;
 
 @SpringBootApplication(scanBasePackages = "ru.springtutorials.multimodule")
 @RestController
