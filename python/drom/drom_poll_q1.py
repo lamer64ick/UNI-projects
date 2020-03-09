@@ -59,6 +59,7 @@ def replace_patterns():
 
     for andp in and_patterns:
         dataset['q1'] = dataset['q1'].str.replace(andp, ',')
+        
     print(dataset[(dataset['q1'].str.contains('drom'))])
     for ru in rupatterns:
         dataset['q1'] = dataset['q1'].str.replace(ru, ".ru")
